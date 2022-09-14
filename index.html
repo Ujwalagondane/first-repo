@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>card design</title>
+    <style>
+        .container{
+            width: 300px;
+            height: 400px;
+            background-color: pink;
+            box-shadow: 7px 7px 3px #888888;
+            border : 1px solid rgb(53, 52, 53);
+            border-radius: 5%;
+            padding: 5px;
+
+        }
+
+        .card-img{
+            height: 100px;
+            width: 100px;
+            display: block;
+            margin: auto;
+        }
+
+        .card-img-container{
+            background-color: rgb(247, 218, 223);
+            box-shadow: 0px 0px 3px #888888;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: auto;
+            padding: 10px;
+         }
+
+         .card-img-scissors{
+            height: 40px;
+            
+         }
+
+         .card-title{
+            text-align: center;
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+            
+         }
+
+         .card-subtitle{
+            font-size: 16px;
+            text-align: center;
+            color: #464444;
+            font-family: lato;
+        }
+
+         .card-stylist{
+            background-color: rgb(141, 90, 199);
+            box-shadow: 2px 2px 3px #888888;
+            display: block;
+            padding: 2px;
+            text-align: center;
+            width: 160px;
+            font-size: 18px;
+            border: 1px solid rgb(219, 211, 219);
+            border-radius: 0px 30px 0px 30px  ;
+            display: block;
+            margin: auto;
+            color: rgb(247, 236, 240);
+        }
+
+        .card-btn{
+            background-color: palevioletred;
+            border: 1px solid rgb(63, 61, 61);
+            border-radius: 20px;
+            box-shadow: 2px 2px 3px #888888;
+            display: block;
+            margin: auto;
+            padding: 5px;
+            width: 200px;
+        }
+
+        .card-btn:hover{
+            background-color: rgb(197, 70, 148);
+        }
+
+       
+
+        .card-discription{
+            font-size: 16px;
+            padding-left: 15px;
+            padding-bottom: 15px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="card-img-container">
+        <img src="woman.png" class="card-img"/>
+        </div>
+        <div>
+            <h2 class="card-title">
+                <img src="scissors-and-comb.png" class="card-img-scissors"/>
+                <i>The Blowout</i>
+            </h2>
+            <P class="card-subtitle"><i>BEAUTY SALON</i></P>
+            
+            <span class="card-stylist">
+                Lane Doe <br/>
+                HAIR STYLIST
+            </span>
+            <br/>
+            <button class="card-btn">Book your Appointment here</button>
+            
+            <p class="card-discription">
+                123 Main Suito 300<br/>
+                www.theblowout.com<br/>
+                555-555-5555<br/>
+            </p>
+           
+            
+        </div>
+    </div>
+</body>
+</html>
